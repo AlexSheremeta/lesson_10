@@ -1,0 +1,122 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:,400,700,900&display=swap");
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px;
+}
+body {
+	line-height: 1;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	background: #f5f5f5;
+	padding: 160px 210px 0px 210px;
+}
+
+.overline-header__icon {
+	margin: -2px 16px 0px 0px;
+}
+.overline-header__sub-title {
+	display: inline-block;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #5d62b5;
+	margin: 0px 0px 33px 0px;
+}
+.overline-header__title {
+	font-family: "Roboto", sans-serif;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #000000;
+	margin: 0px 0px 95px 0px;
+}
+
+.our-services {
+	max-width: 1060px;
+	background-color: #F5F5F5;
+}
+
+.our-services__item {
+	display: inline-block;
+	max-width: 324px;
+	padding: 50px 44px 50px 43px;
+	box-shadow: 0px 8px 16px rgba(38, 38, 38, 0.24), 0px 16px 24px rgba(38, 38, 38, 0.2);
+	border-radius: 20px;
+	margin: 0px 24px 24px 0px;
+	background: #FFFFFF;
+}
+.our-services-cart {
+	text-align: center;
+}
+.our-services-cart__icon {
+	margin: 0px 0px 33px 0px;
+}
+.our-services-cart__title {
+	font-family: "Roboto", sans-serif;
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+	color: #f2726f;
+	margin: 0px 0px 20px 0px;
+}
+.our-services-cart__text {
+	font-family: "Roboto", sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	letter-spacing: 0.15px;
+	color: #4b4b4b;
+}
+
+.sub-title_color {
+	color: #f2726f;
+}
+.title_color-margin {
+	color: blue;
+	margin: 0px 0px 30px 0px;
+}
